@@ -6,10 +6,10 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "sinanugur.github.io"
+baseurl = "https://sinanugur.github.io/"
 
 # Title of your site
-title = "Sinan U. Umu"
+title = "myRNA, yet another RNA blog."
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
@@ -34,7 +34,7 @@ hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
 defaultContentLanguageInSubdir = false
 
 # Get last modified date for content from Git?
-enableGitInfo = false
+enableGitInfo = true
 
 [outputs]
   home = [ "HTML", "CSS", "RSS", "JSON" ]
@@ -51,7 +51,7 @@ enableGitInfo = false
   # AUTHOR SETUP
 
   # Your details.
-  name = "Sinan U. Umu, PhD"
+  name = "Sinan U. Umu"
   role = "Postdoctoral Scientist"
 
   # Organizations/Affiliations.
@@ -224,7 +224,7 @@ enableGitInfo = false
     #   2 = APA
     #   3 = MLA
     #   4 = Stream
-    publication_format = 4
+    publication_format = 0 
 
     # Talk list format.
     #   0 = Simple
@@ -270,6 +270,12 @@ enableGitInfo = false
     icon_pack = "fab"
     link = "https://github.com/sinanugur"
 
+  [[params.social]]
+    icon = "linkedin"
+    icon_pack = "fab"
+    link = "https://www.linkedin.com/in/sinanugur/"
+
+
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
   # [[params.social]]
@@ -305,15 +311,11 @@ enableGitInfo = false
   url = "#projects"
   weight = 4
 
-[[menu.main]]
-  name = "Tutorials"
-  url = "/tutorial/"
-  weight = 5
 
-[[menu.main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 6
+#[[menu.main]]
+#  name = "Contact"
+#  url = "#contact"
+#  weight = 6
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

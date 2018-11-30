@@ -1,11 +1,10 @@
 +++
-title = "A comprehensive profile of circulating RNAs in human serum"
-date = 2017-12-08T00:00:00
+title = "Robust Identification of Noncoding RNA from Transcriptomes Requires Phylogenetically-Informed Sampling"
+date = 2014-10-30T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Umu SU","Langseth H","Bucher-Johannessen C","Fromm B","Keller A","Meese E","Lauritzen M","Leithaug M","Lyle R", "Rounge T"]
-
+authors = ["Stinus Lindgreen" , "Sinan Uğur Umu" , "Alicia Sook-Wei Lai", "Hisham Eldai", "Wenting Liu", "Stephanie McGimpsey", "Nicole E. Wheeler", "Patrick J. Biggs", "Nick R. Thomson", "Lars Barquist", "Anthony M. Poole" , "Paul P. Gardner"]
 # Publication type.
 # Legend:
 # 0 = Uncategorized
@@ -18,11 +17,10 @@ authors = ["Umu SU","Langseth H","Bucher-Johannessen C","Fromm B","Keller A","Me
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "*RNA biology*."
+publication = "*PLOS Computational Biology*"
 
 # Abstract and optional shortened version.
-abstract = "Non-coding RNA (ncRNA) molecules have fundamental roles in cells and many are also stable in body fluids as extracellular RNAs. In this study, we used RNA sequencing (RNA-seq) to investigate the profile of small non-coding RNA (sncRNA) in human serum. We analyzed 10 billion Illumina reads from 477 serum samples, included in the Norwegian population-based Janus Serum Bank (JSB). We found that the core serum RNA repertoire includes 258 micro RNAs (miRNA), 441 piwi-interacting RNAs (piRNA), 411 transfer RNAs (tRNA), 24 small nucleolar RNAs (snoRNA), 125 small nuclear RNAs (snRNA) and 123 miscellaneous RNAs (misc-RNA). We also investigated biological and technical variation in expression, and the results suggest that many RNA molecules identified in serum contain signs of biological variation. They are therefore unlikely to be random degradation by-products. In addition, the presence of specific fragments of tRNA, snoRNA, Vault RNA and Y_RNA indicates protection from degradation. Our results suggest that many circulating RNAs in serum can be potential biomarkers."
-
+abstract = "Noncoding RNAs are integral to a wide range of biological processes, including translation, gene regulation, host-pathogen interactions and environmental sensing. While genomics is now a mature field, our capacity to identify noncoding RNA elements in bacterial and archaeal genomes is hampered by the difficulty of de novo identification. The emergence of new technologies for characterizing transcriptome outputs, notably RNA-seq, are improving noncoding RNA identification and expression quantification. However, a major challenge is to robustly distinguish functional outputs from transcriptional noise. To establish whether annotation of existing transcriptome data has effectively captured all functional outputs, we analysed over 400 publicly available RNA-seq datasets spanning 37 different Archaea and Bacteria. Using comparative tools, we identify close to a thousand highly-expressed candidate noncoding RNAs. However, our analyses reveal that capacity to identify noncoding RNA outputs is strongly dependent on phylogenetic sampling. Surprisingly, and in stark contrast to protein-coding genes, the phylogenetic window for effective use of comparative methods is perversely narrow: aggregating public datasets only produced one phylogenetic cluster where these tools could be used to robustly separate unannotated noncoding RNAs from a null hypothesis of transcriptional noise. Our results show that for the full potential of transcriptomics data to be realized, a change in experimental design is paramount: effective transcriptomics requires phylogeny-aware sampling."
 #abstract_short = ""
 
 # Is this a selected publication? (true/false)
