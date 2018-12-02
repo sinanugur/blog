@@ -26,7 +26,7 @@ paginate = 10
 disqusShortname = ""
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "UA-130264448-1"
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
@@ -56,7 +56,7 @@ enableGitInfo = true
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Cancer Registry of Norway", url = "kreftregisteret.no" } ]
+  organizations = [ { name = "Cancer Registry of Norway", url = "https://www.kreftregisteret.no/" } ]
 
   gravatar = true  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
@@ -91,8 +91,8 @@ enableGitInfo = true
   #   3: OpenStreetMap (Mapbox)
   map = 1
   map_api_key = ""
-  latitude = "37.4275"
-  longitude = "-122.1697"
+  latitude = "59.930975"
+  longitude = "10.664343"
   zoom = 15
 
   # SITE SETUP

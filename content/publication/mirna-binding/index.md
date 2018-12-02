@@ -1,11 +1,10 @@
 +++
-title = "A comprehensive profile of circulating RNAs in human serum"
-date = 2017-12-08T00:00:00
+title = "A probabilistic approach to microRNA-target binding"
+date = 2011-09-16T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Umu SU","Langseth H","Bucher-Johannessen C","Fromm B","Keller A","Meese E","Lauritzen M","Leithaug M","Lyle R", "Rounge T"]
-
+authors = ["Hasan Oğul","Sinan U Umu","Y Yener Tuncel","Mahinur S Akkaya"]
 # Publication type.
 # Legend:
 # 0 = Uncategorized
@@ -18,11 +17,12 @@ authors = ["Umu SU","Langseth H","Bucher-Johannessen C","Fromm B","Keller A","Me
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "*RNA biology*."
+publication = "*Biochemical and biophysical research communications*"
+publication_short = "*BBRC*"
+
 
 # Abstract and optional shortened version.
-abstract = "Non-coding RNA (ncRNA) molecules have fundamental roles in cells and many are also stable in body fluids as extracellular RNAs. In this study, we used RNA sequencing (RNA-seq) to investigate the profile of small non-coding RNA (sncRNA) in human serum. We analyzed 10 billion Illumina reads from 477 serum samples, included in the Norwegian population-based Janus Serum Bank (JSB). We found that the core serum RNA repertoire includes 258 micro RNAs (miRNA), 441 piwi-interacting RNAs (piRNA), 411 transfer RNAs (tRNA), 24 small nucleolar RNAs (snoRNA), 125 small nuclear RNAs (snRNA) and 123 miscellaneous RNAs (misc-RNA). We also investigated biological and technical variation in expression, and the results suggest that many RNA molecules identified in serum contain signs of biological variation. They are therefore unlikely to be random degradation by-products. In addition, the presence of specific fragments of tRNA, snoRNA, Vault RNA and Y_RNA indicates protection from degradation. Our results suggest that many circulating RNAs in serum can be potential biomarkers."
-
+abstract = "Elucidation of microRNA activity is a crucial step in understanding gene regulation. One key problem in this effort is how to model the pairwise interactions of microRNAs with their targets. As this interaction is strongly mediated by their sequences, it is desired to set-up a probabilistic model to explain the binding preferences between a microRNA sequence and the sequence of a putative target. To this end, we introduce a new model of microRNA-target binding, which transforms an aligned duplex to a new sequence and defines the likelihood of this sequence using a Variable Length Markov Chain. It offers a complementary representation of microRNA–mRNA pairs for microRNA target prediction tools or other probabilistic frameworks of integrative gene regulation analysis. The performance of present model is evaluated by its ability to predict microRNA–target mRNA interaction given a mature microRNA sequence and a putative mRNA binding site. In regard to classification accuracy, it outperforms two recent methods based on thermodynamic stability and sequence complementarity. The experiments can also unveil the effects of base pairing types and non-seed region in duplex formation."
 #abstract_short = ""
 
 # Is this a selected publication? (true/false)
@@ -34,7 +34,7 @@ selected = false
 #   E.g. `projects = ["deep-learning"]` references 
 #   `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects = ["serum-rna-biomarkers"]
+projects = [""]
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
@@ -46,10 +46,10 @@ projects = ["serum-rna-biomarkers"]
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["serum","rna","ncRNA"]
+tags = ["rna","mirna","binding"]
 
 # Links (optional).
-url_pdf = "https://www.tandfonline.com/doi/pdf/10.1080/15476286.2017.1403003?needAccess=true"
+url_pdf = "http://ww2.biol.sc.edu/~elygen/biol303/2011%20papers/probabilistic_miRNA_binding.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
