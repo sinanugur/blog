@@ -6,7 +6,7 @@ title = "RNA-RNA interactions and Avoidance"
 date = 2018-12-01T00:00:00
 
 # Project summary to display on homepage.
-summary = "An example of using the in-built project page."
+summary = "This project includes RNA-RNA interaction prediction benchmark and Avoidance project."
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
