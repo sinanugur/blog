@@ -47,7 +47,7 @@ projects = ["rna-rna-avoidance"]
 tags = ["serum","rna","ncRNA"]
 
 # Links (optional).
-url_pdf = "https://www.tandfonline.com/doi/pdf/10.1080/15476286.2017.1403003?needAccess=true"
+url_pdf = "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003907&type=printable"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
