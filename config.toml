@@ -275,6 +275,13 @@ enableGitInfo = true
     icon_pack = "fab"
     link = "https://www.linkedin.com/in/sinanugur/"
 
+  [[params.social]]
+    icon = "researchgate"
+    icon_pack = "ai"
+    link = "https://www.researchgate.net/profile/Sinan_Umu"
+
+
+
 
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
